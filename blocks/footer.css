@@ -20,8 +20,7 @@
 
 .footer__social-heading {
   margin: 0;
-  font-family: "Inter";
-  font-style: normal;
+  font-family: "Inter", Arial, sans-serif;
   font-weight: bold;
   font-size: 16px;
   line-height: 20px;
@@ -43,9 +42,7 @@
 }
 
 .footer__social-link {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: normal;
+  font-family: "Inter", Arial, sans-serif;
   font-size: 16px;
   line-height: 20px;
   color: #fff;
@@ -63,9 +60,7 @@
 }
 
 .footer__copyright {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: normal;
+  font-family: "Inter", Arial, sans-serif;
   font-size: 16px;
   line-height: 20px;
   margin: 0;

@@ -1,5 +1,5 @@
 .about {
-  padding: 119px 80px 173px 0;
+  padding: 100px 80px 173px 80px;
   background-color: #0a2850;
   display: flex;
   justify-content: space-between;
@@ -8,28 +8,23 @@
 }
 
 .about__title {
-  font-family: "Inter";
-  font-style: normal;
+  font-family: "Inter", Arial, sans-serif;
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
   color: #fff;
   max-width: 251px;
-  margin: 0;
-  position: relative;
-  top: -19px;
-  left: 80px;
   z-index: 1;
+  margin: 0;
 }
 
 .about__content {
-  font-family: "Noto Serif";
-  font-style: normal;
-  font-weight: normal;
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-size: 20px;
   line-height: 30px;
   color: #fff;
   max-width: 660px;
+  padding: 19px 0 0;
 }
 
 .about__paragraph {
@@ -53,13 +48,13 @@
 
 @keyframes pulsate {
   0% {
-    transition: opacity(0);
+    opacity: 0;
   }
   50% {
-    transition: opacity(0.6);
+    opacity: 0.6;
   }
   100% {
-    transition: opacity(0);
+    opacity: 0;
     transform: scale(1.3);
   }
 }
