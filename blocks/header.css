@@ -1,5 +1,6 @@
 .header {
   padding: 30px 80px 40px;
+  box-sizing: border-box;
   min-height: 720px;
   max-height: 800px;
   height: 100vh;
